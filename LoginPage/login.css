@@ -1,0 +1,88 @@
+/* Basic styles for footer */
+*{
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+    footer nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        footer nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+            footer nav ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*Header section of login page:*/
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+header{
+    height: 0.5rem;
+
+}
+header img{
+    height: 7rem;
+}
+body{
+    background-image: url(/Images/background.png);
+    background-position: center;
+}
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*Login Area*/
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.loginArea{
+    padding: 20px 0 0 0;
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    /* background-color: red;*/
+    border-radius: 10px;
+    background-color: #D5FEF4;
+
+}
+.loginArea form{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0 0 20px;
+
+}
+.loginArea .emailInput{
+    margin-left: 50px;
+}
+.loginArea .passInput{
+    margin-left: 26px;
+}
+.passwordSection{
+    margin-top: 20px;
+}
+
+form input{
+    border: none;
+    background-color: lightgray;
+    border-radius: 3px;
+}
+
+.landingPageLogin{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
